@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "744811832465",
+    "firebase_url": "https://ramhlun-south-lltf.firebaseio.com",
+    "project_id": "ramhlun-south-lltf",
+    "storage_bucket": "ramhlun-south-lltf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:744811832465:android:1fc9478fbf4c25d2b54b30",
+        "android_client_info": {
+          "package_name": "com.ramhluns.lltf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "744811832465-kd7h7o08giajcpudjake476dd9hl6qer.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB18Q-_UD6iTJbQyrQCKCEpYpxkLpAcb-o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "744811832465-kd7h7o08giajcpudjake476dd9hl6qer.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:744811832465:android:f8e5dad232c2597eb54b30",
+        "android_client_info": {
+          "package_name": "com.ramhluns.lltf.admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "744811832465-kd7h7o08giajcpudjake476dd9hl6qer.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB18Q-_UD6iTJbQyrQCKCEpYpxkLpAcb-o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "744811832465-kd7h7o08giajcpudjake476dd9hl6qer.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

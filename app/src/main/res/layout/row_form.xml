@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_list_row"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/padding_list_row"
+    android:paddingLeft="?listPreferredItemPaddingLeft"
+    android:paddingRight="?listPreferredItemPaddingRight"
+    android:paddingTop="@dimen/padding_list_row">
+
+    <LinearLayout
+        android:id="@+id/message_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="@dimen/padding_list_row">
+
+        <TextView
+            android:id="@+id/tvHming"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:lines="1"
+            android:text="Hming"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="@dimen/hminglist"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvSection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:lines="1"
+            android:text="Section"
+            android:textColor="@color/subject"
+            android:textSize="@dimen/section"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+
+   <TextView
+        android:id="@+id/tvChhuahni"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/datestamp"
+        android:textSize="@dimen/datestamp"
+        android:textStyle="bold"
+       android:text="Date"/>
+
+    <ImageView
+        android:id="@+id/ivStatus"
+        android:layout_width="@dimen/icon_star"
+        android:layout_height="@dimen/icon_star"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/ic_pending" />
+
+</RelativeLayout>
